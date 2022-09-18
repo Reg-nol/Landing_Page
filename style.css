@@ -115,7 +115,10 @@ ul{
     display: flex;
     
     width: 50%;
-    justify-content: space-around;
+    justify-content: space-between;
+    gap: 10px;
+    ;
+    flex-shrink: 0;
 }
 .hero_2_blocks1_container{
     display: flex;
@@ -134,6 +137,7 @@ ul{
     border-radius: 13px;
     background-color: white;
    
+   
     
 }
 .hero_2_blocks2_container{
@@ -144,6 +148,7 @@ ul{
     align-items: center;
     justify-content: center;
     width: 150px;
+    flex-shrink: 0;
     
 
 }
